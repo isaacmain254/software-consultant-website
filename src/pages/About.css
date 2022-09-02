@@ -1,0 +1,192 @@
+.about-me {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.about-me h3 {
+  font-size: 27px;
+  color: #7b68ee;
+  font-weight: 400;
+}
+.about-container {
+  display: flex;
+  width: 80%;
+  margin: 40px auto 30px;
+}
+.isaac-img {
+  width: 40%;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.more-about-me {
+  width: 60%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.more-about-me p {
+  line-height: 27px;
+}
+.skills-tools {
+  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.skills-head {
+  text-align: center;
+  margin: 20px;
+}
+.skills-tools ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.tech {
+  text-align: center;
+}
+.tech li span {
+  color: #1e90ff;
+  font-size: 37px;
+
+  box-sizing: border-box;
+}
+.technologies {
+  width: 80%;
+  margin: 25px auto 25px;
+}
+.tech-btn {
+  font-size: 17px;
+}
+.work-with-me {
+  width: 85%;
+  margin: auto auto 25px;
+  display: flex;
+  height: auto;
+}
+.work-container {
+  width: 60%;
+}
+.work-container li {
+  line-height: 27px;
+  margin-left: 25px;
+}
+.discuss-btn {
+  border-radius: 17px;
+  padding: 5px 20px;
+  margin-top: 25px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  border: 1px solid blue;
+}
+.discuss-btn:hover {
+  transform: scale(1.1);
+}
+.discuss-btn a {
+  color: blue;
+  font-size: 17px;
+}
+.work-stats {
+  width: 40%;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.projcts,
+.solutions,
+.complete {
+  border: 1px solid #7b68ee;
+  width: 170px;
+  height: 110px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  text-align: center;
+}
+.solutions {
+  margin-left: 250px;
+  margin-top: -40px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+}
+.complete {
+  margin-left: 40px;
+  margin-top: -20px;
+  background-color: aqua;
+  border: none;
+}
+.get-in-touch {
+  width: 100%;
+  margin: 30px auto auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.get-in-touch p:first-of-type {
+  font-size: 23px;
+  color: #111;
+  font-weight: 500;
+}
+.get-in-touch p:nth-child(2) {
+  width: 50%;
+  margin: 13px auto 5px;
+  text-align: center;
+}
+.btns {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+.cont-btn {
+  border: 1px solid blue;
+  border-radius: 17px;
+  font-size: 17px;
+  padding: 5px 20px;
+}
+.cont-btn a {
+  color: blue;
+}
+.cont-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Responsive style */
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
+  }
+  .more-about-me {
+    width: 100%;
+    margin: 0;
+  }
+  .isaac-img {
+    width: 100%;
+  }
+  .work-with-me {
+    width: 100%;
+    flex-direction: column;
+  }
+  .work-container {
+    width: 100%;
+  }
+  .work-container h3 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .more-about-me h3 {
+    margin: 9px auto 15px 6%;
+  }
+  .more-about-me p {
+    width: 90%;
+    margin: auto;
+  }
+  .get-in-touch p:nth-child(2) {
+    width: 90%;
+  }
+}

@@ -1,0 +1,347 @@
+.home {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+.home-container {
+  width: 100%;
+  background: url("../images/engineer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.home-container:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.home-container h3 {
+  font-size: 27px;
+  color: #7b68ee;
+  font-weight: 400;
+}
+.home-container a {
+  /* color: #fff; */
+  font-weight: 500;
+}
+/* home intro style */
+.home-intro {
+  width: 90%;
+  height: 70vh;
+  display: flex;
+  margin: auto;
+}
+.intro-left {
+  width: 55%;
+  position: relative;
+}
+.intro-content {
+  margin-left: 100px;
+  position: relative;
+  top: 100px;
+}
+.intro-content h2 {
+  color: blue;
+  font-size: 29px;
+  margin: 10px auto 10px;
+  font-weight: 500;
+}
+.intro-content p:first-of-type {
+  font-size: 29px;
+  margin-bottom: 10px;
+  font-weight: 420;
+  color: #fff;
+}
+.intro-content p {
+  font-size: 19px;
+  color: #fff;
+}
+/* typing text effect */
+.intro-content span {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  /* white-space: nowrap; */
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+/* the typing text effect */
+@keyframes typing {
+  from {
+    width: 20;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.social-links {
+  color: #1e90ff;
+  margin: 10px auto 10px;
+}
+.intro-btn {
+  font-size: 18px;
+  padding: 6px 20px;
+  border-radius: 17px;
+
+  margin-top: 40px;
+  border: 1px solid blue;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.intro-btn a {
+  color: blue;
+}
+.intro-btn:hover {
+  transform: scale(1.1);
+}
+.left-intro-img {
+  width: 100px;
+  height: 100px;
+  /* border: 1px solid #7b68ee; */
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* right side intro */
+.intro-right {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-right img {
+  width: 90%;
+  height: 90%;
+  border-radius: 6px;
+}
+/* about-me-intro style */
+.about-me-intro {
+  display: flex;
+  width: 75%;
+  margin: 60px auto 50px;
+}
+.abit-about-me {
+  width: 60%;
+}
+.abit-about-me p:first-of-type {
+  color: blue;
+  font-size: 21px;
+  margin: 15px 25px 10px;
+}
+.abit-about-me p {
+  font-size: 17px;
+  margin: 25px 25px 30px;
+  line-height: 27px;
+}
+.aboutme-btn {
+  color: #1e90ff;
+  font-size: 18px;
+}
+.aboutme-btn:hover {
+  color: #7b68ee;
+  transition: all 0.3s ease-in-out;
+}
+.about-me-image {
+  width: 40%;
+}
+
+/* what i can do section  style */
+.what-i-do {
+  width: 100%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.1);
+}
+.intro-text {
+  text-align: center;
+}
+.intro-text p {
+  width: 45%;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 27px;
+}
+.card {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly; */
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 70px;
+  margin: 50px auto 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card li {
+  width: 320px;
+  height: 230px;
+  border: 1px solid #7fff00;
+  text-align: start;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+.card li:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.card h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #7b68ee;
+}
+.card img {
+  width: 100%;
+
+  height: 120px;
+  border-radius: 6px 6px 0 0;
+  object-fit: contain;
+}
+/* mobile application image */
+.mobile-app {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-app img {
+  transform: rotateY(210deg);
+  height: 350px;
+  width: 70%;
+}
+/* who do i work for section */
+/* get a wwebsite section */
+.who-i-workfor {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.workfor-heading {
+  text-align: center;
+}
+.workfor-intro {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+.get-website-container {
+  display: flex;
+  width: 85%;
+  margin: 40px auto 0;
+}
+.get-website {
+  width: 45%;
+}
+.get-website p {
+  margin: 25px auto auto;
+  line-height: 25px;
+}
+.website {
+  width: 55%;
+}
+.website img {
+  width: 650px;
+  height: 400px;
+}
+
+/* get started Section */
+.get-started {
+  width: 100%;
+  height: 45vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/get-started.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.get-started-btn {
+  background-color: rgb(228, 8, 8);
+  color: #fff;
+  font-size: 18px;
+  padding: 6px 20px;
+  border-radius: 6px;
+  border: none;
+}
+.get-started p {
+  font-size: 18px;
+  color: #111;
+  margin: 7px auto 10px;
+}
+@media screen and (max-width: 768px) {
+  .home-intro {
+    flex-direction: column;
+  }
+  .intro-content {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro-left {
+    width: 100%;
+  }
+  .about-me-intro {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .abit-about-me {
+    width: 100%;
+    margin: 0;
+  }
+  .about-heading {
+    text-align: center;
+  }
+  .intro-text p {
+    width: 90%;
+  }
+  .intro-right {
+    display: none;
+  }
+  .abit-about-me p:first-of-type {
+    text-align: center;
+  }
+  .workfor-intro {
+    width: 90%;
+  }
+  .get-website-container {
+    flex-direction: column;
+  }
+  .get-website {
+    width: 100%;
+  }
+  .get-website h3 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .website {
+    width: 100%;
+  }
+  .website img {
+    width: 100%;
+  }
+}

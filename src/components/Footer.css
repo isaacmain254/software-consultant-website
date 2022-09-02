@@ -1,0 +1,24 @@
+.footer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.footer hr {
+  width: 80%;
+  margin: 30px auto 20px;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.footer-content small {
+  color: grey;
+}
+span {
+  color: red;
+  font-size: 21px;
+}
