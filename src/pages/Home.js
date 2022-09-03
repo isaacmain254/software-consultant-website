@@ -55,7 +55,7 @@ const Home = () => {
           <div className="intro-right">
             <img
               className="card-img"
-              src={require("../images/progressive-app.png")}
+              src={require("../images/code.jpg")}
               alt="img"
             />
           </div>
@@ -75,6 +75,11 @@ const Home = () => {
             about comming up with software solutions that suits the business
             needs.My greatest strength is the ability to interprete clients
             requirement ,design , code and test the software.
+          </p>
+          <p>
+            I love javaScript and all the environment of javascript technologies
+            like Reactjs and React Native.I don't see problems ... i see
+            solutions.{" "}
           </p>
           <p>
             <Link to="/about-me" className="aboutme-btn">

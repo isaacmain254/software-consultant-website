@@ -41,3 +41,9 @@
     transform: translateY(0px);
   }
 }
+@media screen and (max-width: 768px) {
+  .icon-position {
+    right: 60px;
+    bottom: 70px;
+  }
+}

@@ -126,7 +126,7 @@
   flex-direction: column;
 }
 .get-in-touch p:first-of-type {
-  font-size: 23px;
+  font-size: 20px;
   color: #111;
   font-weight: 500;
 }
@@ -143,14 +143,14 @@
 .cont-btn {
   border: 1px solid blue;
   border-radius: 17px;
-  font-size: 17px;
-  padding: 5px 20px;
+  font-size: 15px;
+  padding: 2px 14px;
 }
 .cont-btn a {
   color: blue;
 }
 .cont-btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
 
@@ -179,12 +179,28 @@
     text-align: center;
     margin-bottom: 25px;
   }
+  .work-stats {
+    width: 100%;
+    margin-left: 0;
+  }
+  .projcts {
+    margin-left: 15px;
+  }
+  .solutions {
+    margin-left: 210px;
+  }
+  .complete {
+    margin-top: 25px;
+  }
   .more-about-me h3 {
     margin: 9px auto 15px 6%;
   }
   .more-about-me p {
     width: 90%;
     margin: auto;
+  }
+  .get-in-touch p:first-of-type {
+    margin: 13px;
   }
   .get-in-touch p:nth-child(2) {
     width: 90%;
