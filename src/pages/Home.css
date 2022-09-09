@@ -4,6 +4,7 @@
   box-sizing: border-box;
   color: rgba(0, 0, 0, 0.7);
   position: relative;
+  width: 100%;
 }
 .home-container {
   width: 100%;
@@ -97,7 +98,6 @@
   font-size: 18px;
   padding: 6px 20px;
   border-radius: 17px;
-
   margin-top: 40px;
   border: 1px solid blue;
   background-color: #fff;
@@ -279,11 +279,13 @@
 }
 .get-started-btn {
   background-color: rgb(228, 8, 8);
-  color: #fff;
   font-size: 18px;
   padding: 2px 10px;
   border-radius: 6px;
   border: none;
+}
+.get-started-btn a {
+  color: #fff;
 }
 .get-started p {
   font-size: 18px;
@@ -292,20 +294,32 @@
 }
 @media screen and (max-width: 768px) {
   .home-container {
-    height: auto;
+    border: 1px solid red;
   }
   .home-intro {
     flex-direction: column;
+  }
+  .intro-left {
+    width: 100%;
+    border: 1px solid green;
   }
   .intro-content {
     width: 100%;
     height: auto;
     margin: 0;
-    top: 30px;
+    top: 10px;
     flex-direction: column;
+    border: 1px solid blue;
   }
-  .intro-left {
-    width: 100%;
+  .intro-content h2 {
+    margin: 7px auto 7px;
+  }
+  .intro-content p:first-of-type {
+    font-size: 27px;
+    margin-bottom: 8px;
+  }
+  .intro-btn {
+    margin-top: 20px;
   }
   .about-me-intro {
     flex-direction: column;

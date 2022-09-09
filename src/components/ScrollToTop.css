@@ -42,8 +42,8 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .icon-position {
+  /* .icon-position {
     right: 60px;
     bottom: 70px;
-  }
+  } */
 }

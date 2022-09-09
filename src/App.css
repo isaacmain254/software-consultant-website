@@ -5,7 +5,10 @@
   box-sizing: border-box;
   color: rgba(0, 0, 0, 0.8);
 }
-h3 {
+.main-content {
+  position: relative;
+}
+s h3 {
   font-size: 27px;
   color: #7b68ee;
   font-weight: 400;

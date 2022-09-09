@@ -31,7 +31,7 @@ const Home = () => {
         <div className="home-intro">
           <div className="intro-left">
             <div className="intro-content">
-              <h2>Professional Services Solution</h2>
+              <h2>Professional Services & Solution</h2>
               <p>
                 I offer software solution in <br />
                 Mobile and Web Applications.
