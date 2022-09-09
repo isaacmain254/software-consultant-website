@@ -293,15 +293,11 @@
   margin: 7px auto 10px;
 }
 @media screen and (max-width: 768px) {
-  .home-container {
-    border: 1px solid red;
-  }
   .home-intro {
     flex-direction: column;
   }
   .intro-left {
     width: 100%;
-    border: 1px solid green;
   }
   .intro-content {
     width: 100%;
@@ -309,7 +305,6 @@
     margin: 0;
     top: 10px;
     flex-direction: column;
-    border: 1px solid blue;
   }
   .intro-content h2 {
     margin: 7px auto 7px;
