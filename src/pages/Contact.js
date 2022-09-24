@@ -60,14 +60,15 @@ const Contact = () => {
         <div className="contact-form">
           <div className="form-content">
             <h3>Send a message</h3>
-            <form action="" className="form">
+            <form name="contact" method="post" className="form">
+            <input type="hidden" name="form-name" value="contact" />
               <label htmlFor="name">Name :</label>
               <br />
-              <input type="text" id="name" placeholder="eg .jane" />
+              <input type="text" name="name" id="name" placeholder="eg .jane" />
               <br />
               <label htmlFor="phone">Phone :</label>
               <br />
-              <input type="tel" id="phone" placeholder="eg .+254 748 ..." />
+              <input type="tel" name="phone" id="phone" placeholder="eg .+254 748 ..." />
               <br />
               <label htmlFor="email">Email :</label>
               <br />
@@ -97,10 +98,10 @@ const Contact = () => {
                 placeholder="message"
               ></textarea>
               <br />
-              <button className="send-email" type="submit">
+              {/* <button className="send-email" type="submit">
                 <a href="mailto:isaacmain@gnail.com">Send Message</a>
-              </button>
-              {/* <input type="submit" value="Send Message" /> */}
+              </button> */}
+              <input type="submit" value="Send Message" />
             </form>
           </div>
         </div>
