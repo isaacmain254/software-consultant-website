@@ -77,6 +77,7 @@ const Contact = () => {
                 name="email"
                 id="email"
                 placeholder="eg. jane254@gmail.com"
+                required
               />
               <br />
               <label htmlFor="subject">Subject :</label>
@@ -86,6 +87,7 @@ const Contact = () => {
                 name="subject"
                 id="subject"
                 placeholder="eg . project collaboration"
+                required
               />
               <br />
               <label htmlFor="message">Message :</label>
@@ -96,6 +98,8 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 placeholder="message"
+                required
+                
               ></textarea>
               <br />
               {/* <button className="send-email" type="submit">
